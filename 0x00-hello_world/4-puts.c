@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- * *
  *   *  * main - The code entry point
  *
  *    *
