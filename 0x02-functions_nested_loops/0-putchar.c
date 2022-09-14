@@ -1,5 +1,5 @@
 //#!/bin/bash
-#include <main.h>
+#include "main.h"
 
 
 
