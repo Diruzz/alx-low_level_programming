@@ -4,37 +4,28 @@
 
 /**
  *
- *  * main - Entry point
+ *  * main - print putchar
  *
- *   *
+ *   * Return: always 0
  *
- *    * Return: Always 0 (Success)
- *
- *     */
+ *    */
 
-char _putchar();/*function declaration*/
+
+
 int main(void)
 
 {
-
-	char *str = "_putchar";
-
-
-
-	while (*str)
-
-	{
-
-		_putchar(*str);
-
-		str++;
-
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
+
 }
-char _putchar(){
-	return (0);
-}
+
