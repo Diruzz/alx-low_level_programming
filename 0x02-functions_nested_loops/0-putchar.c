@@ -11,10 +11,11 @@
  *    */
 
 
-
+char _putchar();
 int main(void)
-
 {
+
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -28,4 +29,6 @@ int main(void)
 	return (0);
 
 }
-
+char _putchar(){
+	return (0);
+}
