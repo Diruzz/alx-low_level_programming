@@ -12,6 +12,7 @@
  *
  *     */
 
+char _putchar();/*function declaration*/
 int main(void)
 
 {
@@ -32,8 +33,8 @@ int main(void)
 
 	_putchar('\n');
 
-
-
 	return (0);
-
+}
+char _putchar(){
+	return (0);
 }
