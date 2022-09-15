@@ -4,31 +4,36 @@
 
 /**
  *
- *  * main - print putchar
+ *  * main - Entry point
  *
- *   * Return: always 0
+ *   *
  *
- *    */
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
-
-char _putchar();
 int main(void)
+
 {
 
+	char *str = "_putchar";
 
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+
+
+	while (*str)
+
+	{
+
+		_putchar(*str);
+
+		str++;
+
+	}
+
 	_putchar('\n');
 
+
+
 	return (0);
 
-}
-char _putchar(){
-	return (0);
 }
