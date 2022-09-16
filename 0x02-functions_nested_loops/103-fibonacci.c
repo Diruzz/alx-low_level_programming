@@ -11,7 +11,7 @@ int main(void)
 	int k;
 
 	while (j < 4000000)
-	{ 
+	{
 		if (j % 2 == 0)
 			total += j;
 		k = j;
