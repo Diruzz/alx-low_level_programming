@@ -15,7 +15,7 @@ int main(void)
 	i = 48;
 	j = 49;
 	k = 50;
-	while((i < 56) && (j < 57) && (k < 58))
+	while ((i < 56) && (j < 57) && (k < 58))
 	{
 		putchar(i);
 		putchar(j);
