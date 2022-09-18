@@ -18,7 +18,7 @@ int main(void)
 		putchar(32);
 		putchar(k);
 		putchar(l);
-		if((i == 57) && (j == 56) && (k == 57) && (l == 57))
+		if ((i == 57) && (j == 56) && (k == 57) && (l == 57))
 		{
 			putchar('\n');
 			i++;
@@ -29,7 +29,7 @@ int main(void)
 			putchar(32);
 			if ((k == 57) && (l == 57))
 			{
-				if(j < 56)
+				if (j < 56)
 				{
 				       i = ++j + 1;
 				       k = i;
@@ -37,7 +37,7 @@ int main(void)
 				else if (j == 56)
 				{
 					j++;
-					k = i+1;
+					k = i + 1;
 					l = 48;
 				}
 				else if (j == 57)
