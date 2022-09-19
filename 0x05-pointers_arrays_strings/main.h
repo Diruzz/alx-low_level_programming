@@ -1,3 +1,10 @@
+#ifdef MAIN_H
+#define MAIN_H
+/**
+ * void prototypes()
+ * int prototypes()
+ */
+
 int _putchar(char c);
 
 
@@ -43,3 +50,5 @@ char *_strcpy(char *dest, char *src);
 
 
 int _atoi(char *s);
+
+#endif
