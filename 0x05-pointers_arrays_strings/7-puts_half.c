@@ -23,7 +23,7 @@ int _strlen(char *s)
 {
 	int len = 0;
 
-	char _putchar();
+	char _putchar(void);
 	while (*(s + len) != '\0')
 		len++;
 	return (len);
