@@ -1,22 +1,29 @@
-#include "main.h"
+#include"main.h"
 /**
- *_strncat - concatenate two strings but add inputted number of bytes
- *@dest: string to be appended upon
- *@src: string to be completed at end of dest
- *@n:integer parameter to compare index to
- *Return: returns new concatenated string
- */
-
+  * _strncat - Concatenates two strings
+  * @dest: The destination value
+  * @src: The source value
+  * @n: The limit of the concatenation
+  * Return: A pointer to the resulting string dest
+  */
 char *_strncat(char *dest, char *src, int n)
 {
-
-	int index = 0, dest_len = 0;
+	int dlen = 0, j = 0;
 	
-	while (dest[index++])
-		dest_len++;
+	while (dest[dlen])
+	{
+		dlen++;
+	}
 
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_len++] = src[index];
-	
+	while (j < n && src[j])
+	{
+		dest[dlen] = src[j];
+		dlen++;
+		j++;
+	}
+
+	dest[dlen + n + 1] = '\0';
+
 	return (dest);
+
 }
